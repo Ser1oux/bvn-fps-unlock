@@ -1,0 +1,25 @@
+# build intermediates
+tools/compile-config.xml
+*.swp
+__pycache__/
+*.pyc
+
+# local toolchain (JRE / Flex SDK / ffdec) is not redistributed
+tools/jre/
+tools/flexsdk/
+tools/ffdec/
+
+# game dumps and scratch analysis artifacts
+abc/
+abc2/
+dec/
+dec_main/
+dec_plugin/
+dec_fight/
+dec_built/
+ranges/
+dump/
+pcode/
+build/
+build2/
+*.png

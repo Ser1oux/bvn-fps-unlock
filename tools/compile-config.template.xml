@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flex-config>
+   <compiler>
+      <external-library-path>
+         <!-- {playerglobalHome} resolves to <sdk>/frameworks/libs/player -->
+         <path-element>@PLAYERGLOBAL@</path-element>
+      </external-library-path>
+      <source-path>
+         <path-element>@SRC@</path-element>
+      </source-path>
+      <strict>false</strict>
+      <accessible>false</accessible>
+   </compiler>
+   <target-player>32.0</target-player>
+   <swf-version>15</swf-version>
+   <static-link-runtime-shared-libraries>true</static-link-runtime-shared-libraries>
+   <default-size>
+      <width>200</width>
+      <height>120</height>
+   </default-size>
+   <default-background-color>0x000000</default-background-color>
+   <metadata>
+      <title>BVN FPS Unlock</title>
+      <description>Frame-rate unlock plugin for Bleach vs. Naruto</description>
+      <creator>RE</creator>
+      <language>EN</language>
+   </metadata>
+</flex-config>
