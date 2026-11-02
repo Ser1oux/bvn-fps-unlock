@@ -31,8 +31,10 @@ Adobe AIR 50.2 captive runtime, tested on v3.8.8.6).
 
 ## Install / 安装
 
-1. Copy `dist/fps_unlock.swf` to `<game>\assets\plugin\fps_unlock.swf`.
-   将 `dist/fps_unlock.swf` 复制到 `<游戏目录>\assets\plugin\fps_unlock.swf`。
+1. Get `fps_unlock.swf` from [Releases](https://github.com/Ser1oux/bvn-fps-unlock/releases)
+   (or `dist/` in this repo), and copy it to `<game>\assets\plugin\fps_unlock.swf`.
+   从 [Releases](https://github.com/Ser1oux/bvn-fps-unlock/releases)（或本仓库
+   `dist/`）获取 `fps_unlock.swf`，复制到 `<游戏目录>\assets\plugin\fps_unlock.swf`。
 2. Start the game. The plugin activates automatically at menu init
    (`CONFIG.isRunBack = true`); a green HUD appears top-left.
    启动游戏即自动生效（无需点菜单），左上角出现绿色 HUD。
