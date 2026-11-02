@@ -1,9 +1,9 @@
 # BVN FPS Unlock
 
-Frame-rate unlock plugin for **Bleach vs. Naruto** (死神vs火影 竞技版, 5DPLAY,
+Frame-rate unlock plugin for **Bleach vs. Naruto** (the 5DPLAY competitive edition,
 Adobe AIR 50.2 captive runtime, tested on v3.8.8.6).
 
-[中文文档](README.zh-CN.md)
+[Chinese documentation](README.zh-CN.md)
 
 > Unofficial fan-made tool. Not affiliated with 5DPLAY. This repository contains
 > no game assets, no game code and no decrypted game data — only the plugin
@@ -79,7 +79,7 @@ double-tick trap, the plugin injection point, and the netplay lockstep guard.
 
 ## Caveats
 
-- This is the 竞技版 (competitive) build; it uploads match records. The shipped
+- This is the competitive (ranked) build; it uploads match records. The shipped
   `debugger+.swf` only sanctions 30/60 fps, so keep the unlock off (F4) for
   ranked/online play.
 - Your monitor refresh rate is the real ceiling: on a 120 Hz display, targets
